@@ -19,14 +19,9 @@ $(document).ready(function(){
     if(playing) {
       playPause.dataset.playing = 'true';
       $('.player-button').html("PAUSE");
-      $('.spinner').removeAttr("id");
-      $('.spinner').attr("id", "play");
-
-
     } else playPause.dataset.playing = 'false',
       $('.player-button').html("PLAY");
-      $('.spinner').removeAttr("id");
-      $('.spinner').prop("id", "pause");
+ 
 
   });
   
