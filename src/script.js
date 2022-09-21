@@ -19,6 +19,7 @@ $(document).ready(function(){
     if(playing) {
       playPause.dataset.playing = 'true';
       $('.player-button').html("PAUSE");
+      $('.spinner').removeAttr("id");
       $('.spinner').attr("id", "play");
 
 
